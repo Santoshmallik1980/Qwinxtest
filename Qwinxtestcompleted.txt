@@ -1366,13 +1366,7 @@
         "Fn::GetAtt": [
           "instancei084e63def4f1c09ee",
           "PublicIp"
-       #!/bin/bash
-         yum update
-          yum install httpd -yum
-           service httpd start
-		    chkconfig httpd on
-         		 
-]
+        ]
       }
     },
     "instancei04f436194089fc62dIP": {
